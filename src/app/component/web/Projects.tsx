@@ -1,30 +1,31 @@
 "use client";
 
 import ProjectCard from "./ProjectCard";
-import project1 from "../../../../public/assets/Provider-Shifts Details.png";
-import project2 from "../../../../public/assets/Bags & Shoes Home.png";
+import project1 from "../../../../public/assets/Onboarding.png";
+import project2 from "../../../../public/assets/dope-removebg-preview.png";
 import project3 from "../../../../public/assets/Overview.png";
 import project4 from "../../../../public/assets/Driver's Dashboard.png";
-import project5 from "../../../../public/assets/Onboarding as Service-Men.png";
-import project6 from "../../../../public/assets/Service Provider Dashboard Service Worker Dashboard No data.jpg";
+import project5 from "../../../../public/assets/kode10xlandingpage.png";
+import project6 from "../../../../public/assets/User Timeline.png";
 
 const projects = [
   {
-    title: "Mobile App Redesign",
-    description:
-      "Complete redesign of a mobile application with focus on user experience and modern aesthetics. Improved user flow and increased engagement by 40%.",
-    image: project1,
-    tags: ["UI/UX", "Mobile", "Figma"],
-    link: "#",
-  },
-  {
-    title: "E-Commerce Platform",
+    title: "Famous Store E-Commerce Platform",
     description:
       "Modern e-commerce website design with seamless shopping experience. Integrated advanced filtering and personalized recommendations.",
     image: project2,
     tags: ["Web Design", "E-Commerce", "Prototyping"],
-    link: "#",
+    link: "https://www.famouzstore.com",
   },
+  {
+    title: "Mid View Portal App",
+    description:
+      "Complete redesign of a mobile application with focus on user experience and modern aesthetics. Improved user flow and increased engagement by 40%.",
+    image: project1,
+    tags: ["UI/UX", "Mobile", "Figma"],
+    link: "https://apps.apple.com/us/app/my-mid-view-portal/id6502463931",
+  },
+
   {
     title: "Analytics Dashboard",
     description:
@@ -34,23 +35,23 @@ const projects = [
     link: "#",
   },
   {
-    title: "Fitness Tracking App",
+    title: "Ambulance Tracking App",
     description:
-      "Health and fitness mobile application with workout tracking, progress monitoring, and social features for motivation.",
+      "Real-time ambulance tracking application with GPS integration, emergency alerts, and route optimization.",
     image: project4,
     tags: ["Mobile", "Health Tech", "iOS"],
-    link: "#",
+    link: "https://ambulcare.com/",
   },
   {
-    title: "Banking App Redesign",
+    title: "Kode10x Job Portal",
     description:
-      "Modern fintech application redesign focusing on security, accessibility, and intuitive financial management features.",
+      "Modern job portal application focusing on user experience, job matching, and application tracking.",
     image: project5,
     tags: ["FinTech", "Mobile", "Security"],
-    link: "#",
+    link: "https://www.kode10x.com",
   },
   {
-    title: "Smart Home Control",
+    title: "Kodamora Estate IoT Dashboard",
     description:
       "IoT dashboard for smart home devices with intuitive controls and automation features. Centralized control for all connected devices.",
     image: project6,

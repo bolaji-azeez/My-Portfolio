@@ -61,7 +61,7 @@ const Contact = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center text-muted-foreground">
             <p>
-              &copy; {new Date().getFullYear()} Product Designer. All rights
+              &copy; {new Date().getFullYear()} Const Travis. All rights
               reserved.
             </p>
           </div>

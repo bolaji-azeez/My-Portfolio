@@ -23,24 +23,24 @@ const downloadCV = () => {
   return (
       <section className="relative min-h-screen flex items-center overflow-hidden bg-background">
       {/* Content Container */}
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-20">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-2 py-20">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left Side - Text Content */}
           <div className="animate-fade-up space-y-6">
             <div className="inline-block">
-              <span className="text-sm font-semibold tracking-wider uppercase bg-gradient-primary bg-clip-text text-transparent">
+              <span className="text-sm font-semibold tracking-wider uppercase bg-gradient-primary bg-clip-text text-[##283673]">
                 Product Designer
               </span>
             </div>
             
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight text-foreground">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight text-[#283673]">
               Creating Digital
-              <span className="block bg-gradient-primary bg-clip-text text-transparent mt-2">
+              <span className="block bg-gradient-primary text-[#283673] mt-2">
                 Experiences That Matter
               </span>
             </h1>
 
-            <p className="text-lg sm:text-xl text-[#2e2e2e] max-w-xl">
+            <p className="text-lg sm:text-xl text-[##283673] max-w-xl">
               I craft intuitive and engaging product designs that solve real problems
               and delight users. Let's build something amazing together.
             </p>
@@ -50,7 +50,7 @@ const downloadCV = () => {
                 variant="default" 
                 size="lg"
                 onClick={scrollToProjects}
-                className="min-w-[200px]"
+                className="min-w-[200px] bg-[#283673] hover:bg-gradient-primary/90"
               >
                 View Projects
                 <ArrowDown className="ml-2 h-4 w-4" />
