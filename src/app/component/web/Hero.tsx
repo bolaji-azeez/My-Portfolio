@@ -42,7 +42,7 @@ const downloadCV = () => {
 
             <p className="text-lg sm:text-xl text-[##283673] max-w-xl">
               I craft intuitive and engaging product designs that solve real problems
-              and delight users. Let's build something amazing together.
+              and delight users. Let us build something amazing together.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-8">

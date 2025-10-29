@@ -1,7 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { Mail, Linkedin, Github, Twitter, Facebook } from "lucide-react";
+import { Mail, Linkedin,  Twitter, Facebook } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -10,13 +10,13 @@ const Contact = () => {
         <div className="max-w-3xl mx-auto text-center">
           <div className="animate-fade-up space-y-8">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground">
-              Let's{" "}
+              Let us{" "}
               <span className="bg-gradient-primary bg-clip-text text-[#283673]">
                 Connect
               </span>
             </h2>
             <p className="text-lg text-muted-foreground">
-              Have a project in mind or just want to chat about design? I'm
+              Have a project in mind or just want to chat about design? I am
               always open to discussing new opportunities and ideas.
             </p>
 
