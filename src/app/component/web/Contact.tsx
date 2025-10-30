@@ -1,7 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { Mail, Linkedin,  Twitter, Facebook } from "lucide-react";
+import { Mail, Linkedin, Twitter, Facebook, MessageCircle } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -29,6 +29,20 @@ const Contact = () => {
                 <a href="mailto:azoluwatoisn860@gmail.com">
                   <Mail className="mr-2 h-4 w-4" />
                   Email Me
+                </a>
+              </Button>
+              <Button
+                variant="outline"
+                size="lg"
+                className="min-w-[200px] bg-[#25d366]  text-[#ffffff] hover:text-[#25d366]/90 border-[#25d366] "
+                asChild>
+                <a 
+                  href="https://wa.me/+2349053143510" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  <MessageCircle className="mr-2 h-4 w-4" />
+                  WhatsApp
                 </a>
               </Button>
             </div>

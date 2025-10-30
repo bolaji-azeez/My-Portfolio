@@ -37,7 +37,7 @@ const About = () => {
               About <span className="bg-gradient-primary bg-clip-text text-[#283673]">Me</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Im a passionate product designer with over 5 years of experience creating 
+              I am a passionate product designer with over 2 years of experience creating 
               digital products that users love. I believe great design is about solving 
               problems, not just making things look pretty.
             </p>

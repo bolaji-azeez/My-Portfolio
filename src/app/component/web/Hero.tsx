@@ -24,7 +24,7 @@ const downloadCV = () => {
       <section className="relative min-h-screen flex items-center overflow-hidden bg-background">
       {/* Content Container */}
       <div className="container mx-auto px-4 sm:px-6 lg:px-2 py-20">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center ">
           {/* Left Side - Text Content */}
           <div className="animate-fade-up space-y-6">
             <div className="inline-block">
@@ -42,7 +42,7 @@ const downloadCV = () => {
 
             <p className="text-lg sm:text-xl text-[##283673] max-w-xl">
               I craft intuitive and engaging product designs that solve real problems
-              and delight users. Let us build something amazing together.
+              and delight users. Lets build something amazing together.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-8">
@@ -68,7 +68,7 @@ const downloadCV = () => {
           </div>
 
           {/* Right Side - Image */}
-          <div className="relative animate-scale-in order-first lg:order-last">
+          <div className="relative animate-scale-in order-first lg:order-last ">
             <div className="relative rounded-2xl overflow-hidden shadow-glow">
               <Image 
                 src={heroImage} 

@@ -40,7 +40,7 @@ export default function Header() {
         className={`sticky top-0 z-50 transition-all duration-300 ${
           scrolled
             ? "bg-background/95 backdrop-blur-md shadow-sm border-b border-border"
-            : "bg-transparent"
+            : "bg-[#283673]/0 text-[#ffffff]"
         }`}>
         <div className="max-w-7xl mx-auto px-6 py-4">
           {/* Main Header Row */}
@@ -50,7 +50,7 @@ export default function Header() {
               onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
               className="flex flex-col text-left hover:opacity-80 transition-opacity">
               <h1 className="text-2xl font-bold text-[#283673] tracking-tight">
-                Bolaji Ouwatoisin Azeez
+              Oluwatosin Azeez
               </h1>
               <p className="text-sm text-[#283673]/80 mt-0.5">
                 Product Designer
