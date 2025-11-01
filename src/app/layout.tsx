@@ -28,8 +28,8 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Famous Store</title>
-        <meta name="description" content="Your store description" />
+        <title>Bolaji Oluwatosin - Portfolio</title>
+        <meta name="description" content="A portfolio website showcasing Bolaji's projects and skills." />
       </head>
       <body>
         {children}

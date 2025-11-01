@@ -1,7 +1,11 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { Mail, Linkedin, Twitter, Facebook, MessageCircle } from "lucide-react";
+import { Mail, Facebook, MessageCircle} from "lucide-react";
+import { FaXTwitter } from "react-icons/fa6";
+
+import { FaLinkedin } from 'react-icons/fa'
+
 
 const Contact = () => {
   return (
@@ -51,7 +55,7 @@ const Contact = () => {
                 href="https://www.linkedin.com/in/bolaji-oluwatosin/"
                 className="w-12 h-12 flex items-center justify-center rounded-full border-2 border-primary text-primary hover:bg-[#283673] hover:text-white transition-all duration-300"
                 aria-label="LinkedIn">
-                <Linkedin className="h-5 w-5" />
+                <FaLinkedin className="h-5 w-5" />
               </a>
               <a
                 href="https://www.facebook.com/share/1F66KeqfSr"
@@ -63,7 +67,7 @@ const Contact = () => {
                 href="https://twitter.com/TosinPHP?t=P0zgNytl3tLdi7YxgNBVqA&s=09"
                 className="w-12 h-12 flex items-center justify-center rounded-full border-2 border-primary text-primary hover:bg-[#283673] hover:text-white transition-all duration-300"
                 aria-label="Twitter">
-                <Twitter className="h-5 w-5" />
+                <FaXTwitter className="h-5 w-5" />
               </a>
             </div>
           </div>
