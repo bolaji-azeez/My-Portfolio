@@ -52,7 +52,7 @@ export default function Header() {
               <h1 className="text-2xl font-bold text-[#283673] tracking-tight">
               Oluwatosin Azeez
               </h1>
-              <p className="text-sm text-[#283673]/80 mt-0.5">
+              <p className="text-sm font-semibold text-[#283673]/80 mt-0.5">
                 Product Designer
               </p>
             </button>

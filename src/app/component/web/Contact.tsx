@@ -16,8 +16,7 @@ const Contact = () => {
               </span>
             </h2>
             <p className="text-lg text-muted-foreground">
-              Have a project in mind or just want to chat about design? I am
-              always open to discussing new opportunities and ideas.
+             For project inquiries and formal quotes, please reach out with your requirements.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
@@ -28,7 +27,7 @@ const Contact = () => {
                 asChild>
                 <a href="mailto:azoluwatoisn860@gmail.com">
                   <Mail className="mr-2 h-4 w-4" />
-                  Email Me
+                  Email
                 </a>
               </Button>
               <Button

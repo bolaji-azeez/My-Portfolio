@@ -36,10 +36,8 @@ const About = () => {
             <h2 className="text-4xl md:text-5xl font-bold mb-4 ">
               About <span className="bg-gradient-primary bg-clip-text text-[#283673]">Me</span>
             </h2>
-            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              I am a passionate product designer with over 2 years of experience creating 
-              digital products that users love. I believe great design is about solving 
-              problems, not just making things look pretty.
+            <p className="text-lg font-semibold text-muted-foreground max-w-3xl mx-auto">
+             From the vibrant, bustling heart of Isale Eko, I don&#39;t just design products—I craft digital experiences that solve real problems. My journey began with the precise logic of a Mechanical Engineering degree from Lagos State Polytechnic, but my passion led me to the canvas of product design. For over two years, I&apos;ve been blending analytical thinking with creative vision to build products that aren&lsquo;t just beautiful, but are intuitive and loved by users from Lagos to the world.
             </p>
           </div>
 

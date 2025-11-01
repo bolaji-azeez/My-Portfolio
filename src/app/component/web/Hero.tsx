@@ -27,11 +27,7 @@ const downloadCV = () => {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center ">
           {/* Left Side - Text Content */}
           <div className="animate-fade-up space-y-6">
-            <div className="inline-block">
-              <span className="text-sm font-semibold tracking-wider uppercase bg-gradient-primary bg-clip-text text-[##283673]">
-                Product Designer
-              </span>
-            </div>
+            
             
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight text-[#283673]">
               Creating Digital
@@ -40,21 +36,10 @@ const downloadCV = () => {
               </span>
             </h1>
 
-            <p className="text-lg sm:text-xl text-[##283673] max-w-xl">
-              I craft intuitive and engaging product designs that solve real problems
-              and delight users. Lets build something amazing together.
-            </p>
+           
 
             <div className="flex flex-col sm:flex-row gap-4 pt-8">
-              <Button 
-                variant="default" 
-                size="lg"
-                onClick={scrollToProjects}
-                className="min-w-[200px] bg-[#283673] hover:bg-gradient-primary/90"
-              >
-                View Projects
-                <ArrowDown className="ml-2 h-4 w-4" />
-              </Button>
+              
               <Button 
                 variant="outline" 
                 size="lg"
@@ -63,6 +48,15 @@ const downloadCV = () => {
               >
                 <Download className="mr-2 h-4 w-4" />
                 Download CV
+              </Button>
+              <Button 
+                variant="default" 
+                size="lg"
+                onClick={scrollToProjects}
+                className="min-w-[200px] bg-[#283673] hover:bg-gradient-primary/90"
+              >
+                View Projects
+                <ArrowDown className="ml-2 h-4 w-4" />
               </Button>
             </div>
           </div>
